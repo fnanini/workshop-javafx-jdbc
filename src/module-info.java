@@ -1,6 +1,9 @@
 module workshop {
 	requires javafx.controls;
 	requires javafx.fxml;
+	requires javafx.base;
+	
+	exports gui;
 	
 	opens application to javafx.graphics, javafx.fxml;
 	
